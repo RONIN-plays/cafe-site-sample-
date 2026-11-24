@@ -1,0 +1,442 @@
+<section id="menu" class="menu section-light" aria-labelledby="menu-title">
+  <div class="container">
+    <header class="menu__head">
+      <p class="eyebrow menu__eyebrow">03 — The menu</p>
+      <h2 class="display menu__title" id="menu-title">Made <em>slowly</em>,<br /> served <em>warm</em>.</h2>
+      <p class="menu__intro">Everything is made in-house, from the five o'clock lamination to the hollandaise. A short menu, done properly, and changed with the seasons.</p>
+    </header>
+
+    <div class="menu__bar">
+      <div class="menu__tabs" role="tablist" aria-label="Menu categories">
+        <button class="menu__tab" type="button" role="tab" id="menu-tab-coffee" aria-controls="menu-panel-coffee" aria-selected="true" tabindex="0" data-cursor="hover">
+          <span class="menu__tab-label">Coffee</span><span class="menu__tab-count" aria-hidden="true">06</span>
+          <span class="menu__pill" aria-hidden="true"></span>
+        </button>
+        <button class="menu__tab" type="button" role="tab" id="menu-tab-tea" aria-controls="menu-panel-tea" aria-selected="false" tabindex="-1" data-cursor="hover">
+          <span class="menu__tab-label">Tea &amp; More</span><span class="menu__tab-count" aria-hidden="true">05</span>
+        </button>
+        <button class="menu__tab" type="button" role="tab" id="menu-tab-bakery" aria-controls="menu-panel-bakery" aria-selected="false" tabindex="-1" data-cursor="hover">
+          <span class="menu__tab-label">Bakery</span><span class="menu__tab-count" aria-hidden="true">06</span>
+        </button>
+        <button class="menu__tab" type="button" role="tab" id="menu-tab-brunch" aria-controls="menu-panel-brunch" aria-selected="false" tabindex="-1" data-cursor="hover">
+          <span class="menu__tab-label">Brunch</span><span class="menu__tab-count" aria-hidden="true">05</span>
+        </button>
+      </div>
+      <p class="menu__currency">Prices in GBP</p>
+    </div>
+
+    <div class="menu__panels">
+      <div class="menu__panel" role="tabpanel" id="menu-panel-coffee" aria-labelledby="menu-tab-coffee" tabindex="0">
+        <aside class="menu__aside">
+          <div class="menu__aside-inner">
+            <h3 class="menu__cat display"><em>Coffee</em></h3>
+            <p class="menu__blurb">Roasted on Tuesdays, rested for a week, pulled to order.</p>
+            <p class="menu__meta">Served all day <span aria-hidden="true">/</span> 06 items</p>
+          </div>
+        </aside>
+        <ul class="menu__list" aria-label="Coffee">
+            <li class="menu__row" data-img="/images/menu-espresso.jpg" data-name="Espresso">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-espresso.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">01</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Espresso</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>3.20</span>
+                  </div>
+                  <p class="menu__desc">A double shot of the house blend. Dark chocolate, stone fruit, a long sweet finish.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-flatwhite.jpg" data-name="Flat White">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-flatwhite.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">02</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Flat White</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.40</span>
+                  </div>
+                  <p class="menu__desc">Velvety whole milk over a ristretto double. The one most regulars order.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-espresso.jpg" data-name="Cortado">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-espresso.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">03</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Cortado</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.00</span>
+                  </div>
+                  <p class="menu__desc">Equal parts espresso and steamed milk, served short in a glass.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-coldbrew.jpg" data-name="Cold Brew Tonic">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-coldbrew.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">04</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Cold Brew Tonic</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.20</span>
+                  </div>
+                  <p class="menu__desc">Eighteen-hour cold brew poured over tonic with a twist of orange peel.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-flatwhite.jpg" data-name="Honey Oat Latte">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-flatwhite.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">05</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Honey Oat Latte</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.00</span>
+                  </div>
+                  <p class="menu__desc">Wildflower honey from up the lane, oat milk and a pinch of sea salt.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-coldbrew.jpg" data-name="Pour-over of the week">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-coldbrew.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">06</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Pour-over of the week</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.80</span>
+                  </div>
+                  <p class="menu__desc">A single origin brewed by hand. Ask what is on the bar this morning.</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+      <div class="menu__panel" role="tabpanel" id="menu-panel-tea" aria-labelledby="menu-tab-tea" tabindex="0" hidden>
+        <aside class="menu__aside">
+          <div class="menu__aside-inner">
+            <h3 class="menu__cat display"><em>Tea &amp; more</em></h3>
+            <p class="menu__blurb">Leaves, spice and slow-whisked things for the coffee-shy.</p>
+            <p class="menu__meta">Served all day <span aria-hidden="true">/</span> 05 items</p>
+          </div>
+        </aside>
+        <ul class="menu__list" aria-label="Tea & more">
+            <li class="menu__row" data-img="/images/menu-matcha.jpg" data-name="Ceremonial Matcha">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-matcha.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">01</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Ceremonial Matcha</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.40</span>
+                  </div>
+                  <p class="menu__desc">Uji matcha whisked to order and topped with the milk of your choice.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-chai.jpg" data-name="Masala Chai">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-chai.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">02</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Masala Chai</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.80</span>
+                  </div>
+                  <p class="menu__desc">Our own spice blend, simmered slowly with black tea and steamed milk.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-matcha.jpg" data-name="Hojicha Latte">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-matcha.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">03</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Hojicha Latte</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.00</span>
+                  </div>
+                  <p class="menu__desc">Roasted green tea. Nutty, gentle and low in caffeine.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-chai.jpg" data-name="Hot Chocolate 70%">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-chai.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">04</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Hot Chocolate 70%</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.60</span>
+                  </div>
+                  <p class="menu__desc">Single-origin dark chocolate melted into steamed milk. Not too sweet.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-matcha.jpg" data-name="Fresh-pressed juice">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-matcha.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">05</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Fresh-pressed juice</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.50</span>
+                  </div>
+                  <p class="menu__desc">Apple, ginger and whatever looked best at the market this morning.</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+      <div class="menu__panel" role="tabpanel" id="menu-panel-bakery" aria-labelledby="menu-tab-bakery" tabindex="0" hidden>
+        <aside class="menu__aside">
+          <div class="menu__aside-inner">
+            <h3 class="menu__cat display"><em>Bakery</em></h3>
+            <p class="menu__blurb">Out of the oven from half six. Once it is gone, it is gone.</p>
+            <p class="menu__meta">From 7:00 till sold out <span aria-hidden="true">/</span> 06 items</p>
+          </div>
+        </aside>
+        <ul class="menu__list" aria-label="Bakery">
+            <li class="menu__row" data-img="/images/menu-croissant.jpg" data-name="Butter Croissant">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-croissant.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">01</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Butter Croissant</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>3.80</span>
+                  </div>
+                  <p class="menu__desc">Three days of lamination and cultured French butter. Shatters properly.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-cinnamon.jpg" data-name="Cardamom Bun">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-cinnamon.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">02</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Cardamom Bun</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.20</span>
+                  </div>
+                  <p class="menu__desc">A Swedish-style knot rolled in cardamom sugar, baked every hour.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-croissant.jpg" data-name="Pain au Chocolat">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-croissant.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">03</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Pain au Chocolat</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>4.20</span>
+                  </div>
+                  <p class="menu__desc">Two batons of dark chocolate folded into the same croissant dough.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-sourdough.jpg" data-name="Sourdough loaf">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-sourdough.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">04</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Sourdough loaf</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegan">VG</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>7.50</span>
+                  </div>
+                  <p class="menu__desc">Long-fermented country loaf. Out at seven, usually gone by noon.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-cake.jpg" data-name="Burnt Basque Cheesecake">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-cake.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">05</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Burnt Basque Cheesecake</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr><abbr class="menu__tag" title="Gluten-free">GF</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>6.50</span>
+                  </div>
+                  <p class="menu__desc">A deeply caramelised top, a soft middle and no crust at all.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-cake.jpg" data-name="Almond Frangipane Tart">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-cake.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">06</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Almond Frangipane Tart</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>5.80</span>
+                  </div>
+                  <p class="menu__desc">Seasonal fruit set in almond cream inside a short, buttery case.</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+      <div class="menu__panel" role="tabpanel" id="menu-panel-brunch" aria-labelledby="menu-tab-brunch" tabindex="0" hidden>
+        <aside class="menu__aside">
+          <div class="menu__aside-inner">
+            <h3 class="menu__cat display"><em>Brunch</em></h3>
+            <p class="menu__blurb">Plates for long mornings. Ask us to hold your table.</p>
+            <p class="menu__meta">Served 8:00 – 15:00 <span aria-hidden="true">/</span> 05 items</p>
+          </div>
+        </aside>
+        <ul class="menu__list" aria-label="Brunch">
+            <li class="menu__row" data-img="/images/menu-avotoast.jpg" data-name="Smashed Avo on Sourdough">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-avotoast.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">01</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Smashed Avo on Sourdough</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>12.50</span>
+                  </div>
+                  <p class="menu__desc">Lime, chilli, whipped feta and dukkah, with a soft egg on the side.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-pancakes.jpg" data-name="Ricotta Hotcakes">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-pancakes.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">02</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Ricotta Hotcakes</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>13.00</span>
+                  </div>
+                  <p class="menu__desc">A tall ricotta stack with seasonal berries and honeycomb butter.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-benedict.jpg" data-name="Eggs Benedict">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-benedict.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">03</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Eggs Benedict</h4>
+                    
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>14.00</span>
+                  </div>
+                  <p class="menu__desc">Poached eggs, smoked ham and brown-butter hollandaise on a house muffin.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-avotoast.jpg" data-name="Shakshuka">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-avotoast.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">04</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Shakshuka</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>13.50</span>
+                  </div>
+                  <p class="menu__desc">Eggs baked in spiced tomato and pepper, with yoghurt and charred bread.</p>
+                </div>
+              </div>
+            </li>
+            <li class="menu__row" data-img="/images/menu-granola.jpg" data-name="Granola Bowl">
+              <span class="menu__rule" aria-hidden="true"></span>
+              <div class="menu__row-inner">
+                <img class="menu__thumb" src="/images/menu-granola.jpg" alt="" loading="lazy" decoding="async" width="112" height="140" />
+                <span class="menu__num" aria-hidden="true">05</span>
+                <div class="menu__body">
+                  <div class="menu__line">
+                    <h4 class="menu__name">Granola Bowl</h4>
+                    <span class="menu__tags"><abbr class="menu__tag" title="Vegetarian">V</abbr></span>
+                    <span class="menu__leader" aria-hidden="true"></span>
+                    <span class="menu__price"><span class="visually-hidden">£</span>10.00</span>
+                  </div>
+                  <p class="menu__desc">Toasted oat granola, thick yoghurt, poached rhubarb and a drizzle of honey.</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="menu__foot">
+      <p class="menu__note">Oat, almond &amp; soy at no extra cost · Ask about today's bake</p>
+      <a class="btn btn--ghost menu__pdf" href="#visit" data-cursor="hover" data-magnetic>
+        <span>Book a table</span>
+        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" aria-hidden="true"><path d="M1 7h10m0 0L7 3m4 4-4 4" stroke="currentColor" stroke-width="1.3"/></svg>
+      </a>
+    </footer>
+  </div>
+
+  <div class="menu__float" aria-hidden="true">
+    <div class="menu__float-inner">
+      <div class="menu__float-media"></div>
+      <span class="menu__float-cap"></span>
+    </div>
+  </div>
+</section>

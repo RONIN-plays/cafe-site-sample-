@@ -1,0 +1,66 @@
+<header class="nav" data-nav>
+  <a class="nav__skip" href="#main">Skip to content</a>
+
+  <div class="nav__bar">
+    <a href="#hero" class="nav__logo" aria-label="Marlow, back to top" data-cursor="hover">
+      <span class="nav__logo-word">Marlow</span>
+      <span class="nav__logo-sub">Coffee &amp; Bakehouse</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#story" class="nav__link" data-roll>Story</a>
+      <a href="#menu" class="nav__link" data-roll>Menu</a>
+      <a href="#gallery" class="nav__link" data-roll>Gallery</a>
+      <a href="#visit" class="nav__link" data-roll>Visit</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="#visit" class="btn nav__order" data-magnetic>
+        <span class="nav__order-dot" aria-hidden="true"></span>
+        <span>Order ahead</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-overlay" data-magnetic data-cursor="hover">
+        <span class="nav__toggle-text" aria-hidden="true">
+          <span class="nav__toggle-word">Menu</span>
+          <span class="nav__toggle-word">Close</span>
+        </span>
+        <span class="visually-hidden nav__toggle-sr">Open menu</span>
+        <span class="nav__toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__overlay" id="nav-overlay" aria-hidden="true" inert>
+    <div class="nav__overlay-bg" aria-hidden="true"></div>
+    <div class="nav__overlay-inner">
+      <ol class="nav__big" aria-label="Sections">
+        <li class="nav__big-item"><a href="#story" class="nav__big-link" data-cursor="hover"><span class="nav__big-num">01</span><span class="nav__big-mask"><span class="nav__big-text">Our <em>story</em></span></span></a></li>
+        <li class="nav__big-item"><a href="#process" class="nav__big-link" data-cursor="hover"><span class="nav__big-num">02</span><span class="nav__big-mask"><span class="nav__big-text">Bean <em>to cup</em></span></span></a></li>
+        <li class="nav__big-item"><a href="#menu" class="nav__big-link" data-cursor="hover"><span class="nav__big-num">03</span><span class="nav__big-mask"><span class="nav__big-text">The <em>menu</em></span></span></a></li>
+        <li class="nav__big-item"><a href="#gallery" class="nav__big-link" data-cursor="hover"><span class="nav__big-num">04</span><span class="nav__big-mask"><span class="nav__big-text">This <em>morning</em></span></span></a></li>
+        <li class="nav__big-item"><a href="#visit" class="nav__big-link" data-cursor="hover"><span class="nav__big-num">05</span><span class="nav__big-mask"><span class="nav__big-text">Find <em>us</em></span></span></a></li>
+      </ol>
+
+      <aside class="nav__aside">
+        <figure class="nav__figure">
+          <div class="nav__figure-clip">
+            <img class="nav__figure-img" src="/images/story-interior.jpg" alt="Morning light across Marlow's wooden counter" width="800" height="1000" loading="lazy" decoding="async" />
+          </div>
+          <figcaption class="nav__figcap">14 Hollis Lane, Old Town</figcaption>
+        </figure>
+        <div class="nav__info">
+          <div class="nav__info-block">
+            <p class="nav__info-label">Hours</p>
+            <p>Mon–Fri &nbsp;7:00–18:00</p>
+            <p>Sat–Sun &nbsp;8:00–17:00</p>
+          </div>
+          <div class="nav__info-block">
+            <p class="nav__info-label">Say hello</p>
+            <p><a href="mailto:hello@marlow.cafe" class="nav__info-link">hello@marlow.cafe</a></p>
+            <p><a href="#" class="nav__info-link">Instagram</a> / <a href="#" class="nav__info-link">Journal</a></p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>

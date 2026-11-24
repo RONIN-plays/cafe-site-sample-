@@ -1,0 +1,154 @@
+/* ============ FOOTER ============ */
+.footer {
+  /* a deeper terracotta so small cream text clears WCAG AA (~4.8:1) */
+  --footer-bg: color-mix(in srgb, var(--terracotta) 86%, var(--espresso));
+  --footer-fg: var(--milk);
+  --footer-dim: rgba(251, 247, 240, 0.78);
+  --footer-line: rgba(251, 247, 240, 0.26);
+  position: relative;
+  background: #b14d27;
+  background: var(--footer-bg);
+  color: var(--footer-fg);
+  padding-top: clamp(5rem, 9vw, 8rem);
+  overflow: hidden;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(3rem, 7vw, 8rem);
+  padding-bottom: clamp(3.5rem, 6vw, 5.5rem);
+}
+
+/* ---- newsletter ---- */
+.footer__news-title {
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  line-height: 1;
+  max-width: 14ch;
+}
+.footer__news-title em { font-weight: 300; }
+.footer__news-sub { margin-top: 1rem; color: var(--footer-dim); max-width: 36ch; font-size: var(--fs-small); }
+.footer__news-row {
+  position: relative;
+  display: flex; align-items: center; gap: 1rem;
+  margin-top: clamp(1.75rem, 3vw, 2.5rem);
+  border-bottom: 1px solid var(--footer-line);
+  max-width: 30rem;
+}
+.footer__news-row::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; background: var(--milk);
+  transform: scaleX(0); transform-origin: left; transition: transform 0.7s var(--ease-out);
+}
+.footer__news-row:focus-within::after { transform: scaleX(1); }
+.footer__news-input {
+  flex: 1; min-width: 0; padding: 0.9rem 0;
+  background: transparent; border: 0; outline: none;
+  font-family: var(--font-display); font-size: clamp(1.1rem, 1.5vw, 1.35rem);
+  font-variation-settings: 'SOFT' 50, 'opsz' 36;
+}
+.footer__news-input::placeholder { color: rgba(251, 247, 240, 0.6); }
+.footer__news-btn {
+  position: relative; flex: none;
+  width: 3.4rem; height: 3.4rem; margin-bottom: 0.5rem; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--milk); color: var(--espresso);
+  overflow: hidden;
+  transition: background 0.4s var(--ease-out), color 0.4s var(--ease-out);
+}
+.footer__news-btn:hover { background: var(--espresso); color: var(--milk); }
+.footer__news-btn svg {
+  grid-area: 1 / 1; width: 1.2rem; height: 1.2rem;
+  fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+}
+.footer__news-check { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.footer__news-status { min-height: 1.5em; margin-top: 0.75rem; font-size: var(--fs-small); color: var(--footer-fg); }
+
+/* ---- columns ---- */
+.footer__cols {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem clamp(1.5rem, 3vw, 3rem);
+  align-content: start;
+}
+.footer__col-title {
+  font-family: var(--font-mono); font-weight: 400; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--footer-dim);
+  padding-bottom: 0.9rem; margin-bottom: 1rem; border-bottom: 1px solid var(--footer-line);
+}
+.footer__col ul { list-style: none; display: grid; gap: 0.5rem; }
+.footer__link, .footer__text { font-size: 1rem; line-height: 1.4; }
+.footer__text { color: var(--footer-dim); }
+.footer__link {
+  position: relative; display: inline-block;
+  background: linear-gradient(currentColor, currentColor) no-repeat right bottom / 0% 1px;
+  transition: background-size 0.6s var(--ease-out);
+  padding-bottom: 2px;
+  overflow-wrap: anywhere;
+}
+.footer__link:hover, .footer__link:focus-visible { background-size: 100% 1px; background-position: left bottom; }
+.footer__link em { font-family: var(--font-display); font-style: italic; }
+
+/* ---- bottom bar ---- */
+.footer__bar {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--footer-line);
+}
+.footer__small { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--footer-dim); }
+.footer__clock-time { font-variant-numeric: tabular-nums; color: var(--footer-fg); }
+.footer__top-btn {
+  display: inline-flex; align-items: center; gap: 0.9rem;
+  font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 0.4rem 0.4rem 0.4rem 1.1rem; border-radius: 999px;
+  box-shadow: inset 0 0 0 1px var(--footer-line);
+  transition: box-shadow 0.4s var(--ease-out);
+}
+.footer__top-btn:hover { box-shadow: inset 0 0 0 1px var(--milk); }
+.footer__top-icon {
+  width: 2.4rem; height: 2.4rem; border-radius: 50%; display: grid; place-items: center; overflow: hidden;
+  background: var(--milk); color: var(--espresso);
+}
+.footer__top-icon svg { width: 1rem; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.footer__top-btn:hover .footer__top-icon svg { animation: footer-up 0.55s var(--ease-out); }
+@keyframes footer-up { 0% { transform: translateY(0); } 40% { transform: translateY(-160%); } 41% { transform: translateY(160%); } 100% { transform: translateY(0); } }
+
+.footer button:focus-visible, .footer a:focus-visible, .footer__news-input:focus-visible {
+  outline: 1px solid var(--milk); outline-offset: 4px;
+}
+.footer__news-input:focus-visible { outline: none; }
+
+/* ---- giant wordmark ---- */
+.footer__mark {
+  position: relative;
+  padding-inline: var(--gutter);
+  overflow: hidden; /* letters rise from below this edge */
+}
+.footer__word {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  font-family: var(--font-display);
+  font-size: 21vw; /* JS fits this to the exact width */
+  line-height: 0.78;
+  letter-spacing: -0.02em;
+  color: var(--crema);
+  padding-top: 0.06em;
+  padding-bottom: 0.025em; /* room for the O and W overshoot */
+  white-space: nowrap;
+  user-select: none;
+}
+.footer__letter { display: inline-block; text-align: center; letter-spacing: 0; will-change: transform; }
+.footer__glyph {
+  display: inline-block;
+  font-variation-settings: 'wght' 400, 'SOFT' 0, 'WONK' 0, 'opsz' 144;
+}
+
+@media (max-width: 1099px) {
+  .footer__top { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .footer__cols { grid-template-columns: 1fr 1fr; }
+  .footer__col:first-child { grid-column: 1 / -1; }
+  .footer__bar { flex-direction: column; align-items: flex-start; }
+  .footer__top-btn { align-self: stretch; justify-content: space-between; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer__top-icon svg { animation: none !important; }
+}

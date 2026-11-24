@@ -1,0 +1,157 @@
+{
+  "hero-pour.jpg": {
+    "source": "https://images.unsplash.com/photo-1563311977-d285756282dc",
+    "photographer": "Armin Lotfi",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "hero-cup.jpg": {
+    "source": "https://images.unsplash.com/photo-1613158556069-e7d8eae76214",
+    "photographer": "Ceyda Çiftci",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "story-barista.jpg": {
+    "source": "https://images.unsplash.com/photo-1757495152561-1f632725b271",
+    "photographer": "Dev Benjamin",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "story-interior.jpg": {
+    "source": "https://images.unsplash.com/photo-1511081692775-05d0f180a065",
+    "photographer": "Clifford",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "story-hands.jpg": {
+    "source": "https://images.unsplash.com/photo-1550523303-e9e27624ed35",
+    "photographer": "Gaelle Marcel",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "process-beans.jpg": {
+    "source": "https://images.unsplash.com/photo-1447933601403-0c6688de566e",
+    "photographer": "Mike Kenneally",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "process-roast.jpg": {
+    "source": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb",
+    "photographer": "Yanapi Senaud",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "process-grind.jpg": {
+    "source": "https://images.unsplash.com/photo-1629248990514-c350da4e7bc9",
+    "photographer": "Nguyen Tong Hai Van",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "process-pour.jpg": {
+    "source": "https://images.unsplash.com/photo-1587955245893-389f2215c6eb",
+    "photographer": "Kevin Canlas",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-espresso.jpg": {
+    "source": "https://images.unsplash.com/photo-1705952285570-113e76f63fb0",
+    "photographer": "Katt Galvan",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-flatwhite.jpg": {
+    "source": "https://images.unsplash.com/photo-1497636577773-f1231844b336",
+    "photographer": "Nathan Dumlao",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-coldbrew.jpg": {
+    "source": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735",
+    "photographer": "Demi DeHerrera",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-matcha.jpg": {
+    "source": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7",
+    "photographer": "Jason Leung",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-chai.jpg": {
+    "source": "https://images.unsplash.com/photo-1537188531050-d32d2ae14865",
+    "photographer": "Nipanan Lifestyle",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-croissant.jpg": {
+    "source": "https://images.unsplash.com/photo-1612366747681-e4ca6992b1e9",
+    "photographer": "Kobby Mendez",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-cinnamon.jpg": {
+    "source": "https://images.unsplash.com/photo-1645995575875-ea6511c9d127",
+    "photographer": "Eve Maier",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-sourdough.jpg": {
+    "source": "https://images.unsplash.com/photo-1590301157172-7ba48dd1c2b2",
+    "photographer": "Vicky Ng",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-cake.jpg": {
+    "source": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d",
+    "photographer": "Anthony Espinosa",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-avotoast.jpg": {
+    "source": "https://images.unsplash.com/photo-1628556820645-63ba5f90e6a2",
+    "photographer": "Saymom Leão",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-pancakes.jpg": {
+    "source": "https://images.unsplash.com/photo-1541288097308-7b8e3f58c4c6",
+    "photographer": "Luke Pennystan",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-benedict.jpg": {
+    "source": "https://images.unsplash.com/photo-1664192578382-8216149bd4d5",
+    "photographer": "Alice Pasqual",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "menu-granola.jpg": {
+    "source": "https://images.unsplash.com/photo-1692071106919-01bc0b9b0919",
+    "photographer": "Natalie Behn",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-1.jpg": {
+    "source": "https://images.unsplash.com/photo-1613396874083-2d5fbe59ae79",
+    "photographer": "Franzi Meyer",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-2.jpg": {
+    "source": "https://images.unsplash.com/photo-1522012188892-24beb302783d",
+    "photographer": "Nathan Dumlao",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-3.jpg": {
+    "source": "https://images.unsplash.com/photo-1623334044303-241021148842",
+    "photographer": "Conor Brown",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-4.jpg": {
+    "source": "https://images.unsplash.com/photo-1498709112912-9be3173d30be",
+    "photographer": "SnapbyThree MY",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-5.jpg": {
+    "source": "https://images.unsplash.com/photo-1593872571314-4a735d4b27b0",
+    "photographer": "Yosep Sugiarto",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-6.jpg": {
+    "source": "https://images.unsplash.com/photo-1506193066-f92435edb0a6",
+    "photographer": "Brigitte Tohm",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-7.jpg": {
+    "source": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c",
+    "photographer": "Mike Kenneally",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "gallery-8.jpg": {
+    "source": "https://images.unsplash.com/photo-1619860703338-9c70a1af6a63",
+    "photographer": "Choi sungwoo",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  },
+  "visit-interior.jpg": {
+    "source": "https://images.unsplash.com/photo-1728761390316-935ffeb3fbcc",
+    "photographer": "Dmitrii Filatov",
+    "license": "Unsplash License (https://unsplash.com/license)"
+  }
+}
